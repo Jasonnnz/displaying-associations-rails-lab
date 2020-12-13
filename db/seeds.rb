@@ -4,4 +4,8 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#   Mayor.create(name: 'Emanuel', city: cities.first
+daft = Artist.create(name: "Daft Punk")
+song1 = Song.create(title: "Song 1", artist_id: daft.id)
+song2 = Song.create(title: "Song 2", artist_id: daft.id)
+
